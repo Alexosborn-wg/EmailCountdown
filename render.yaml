@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: emailcountdown
+    env: php
+    buildCommand: ""
+    startCommand: apache2-foreground
